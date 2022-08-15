@@ -28,7 +28,7 @@ class Merhaba extends StatelessWidget {
             icon: Icon(
               Icons.share,
             ),
-            tooltip: "Paylaş",
+            tooltip: "Gönder",
             onPressed: () => print(" Paylaş "),
           ),
         ],
