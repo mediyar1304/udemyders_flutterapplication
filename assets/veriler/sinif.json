@@ -1,0 +1,41 @@
+[
+    {
+        "okulno":865,
+        "adi": "Mediyar",
+        "soyadi": "Deniz",
+        "cinsiyet": "Erkek",
+        "başarılı": true,
+        "veli":{
+            "adi": "Ahmet",
+            "soyadi": "Bayram",
+            "yakınlık": "Dayısı",
+            "telno":123456789
+        }
+    },
+    {
+        "okulno":565,
+        "adi": "Mehmet",
+        "soyadi": "Kaya",
+        "cinsiyet": "Erkek",
+        "başarılı": false,
+        "veli":{
+            "adi": "Samet",
+            "soyadi": "Kaya",
+            "yakınlık": "Babası",
+            "telno":456987452
+        }
+    },
+    {
+        "okulno":898,
+        "adi": "Fatma",
+        "soyadi": "Şahin",
+        "cinsiyet": "Kadın",
+        "başarılı": true,
+        "veli":{
+            "adi": "Kamuran",
+            "soyadi": "Şahin",
+            "yakınlık": "Amcası",
+            "telno":5555995562
+        }
+    }
+]

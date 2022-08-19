@@ -8,12 +8,14 @@ import 'package:udemy_application/arayuz/jsonkonusu.dart';
 import 'package:udemy_application/arayuz/sharedkonusu.dart';
 import 'arayuz/ilksayfa.dart';
 import './arayuz/hello.dart';
+import 'arayuz/localjsonkonusu.dart';
 import 'arayuz/merhaba.dart';
 import 'arayuz/degisenwidget.dart';
 
 void main() {
   runApp(
     MaterialApp(
+      debugShowCheckedModeBanner: false,
       initialRoute: "/",
       routes: {
         "/": (context) => Merhaba(),
@@ -27,6 +29,7 @@ void main() {
               kayitIslemi: KayitIslemleri(),
             ),
         "/jsonkonusu": (context) => JsonKonusu(),
+        "/localjsonkonusu": (context) => LocalJsonKonusu(),
       },
     ),
   );
