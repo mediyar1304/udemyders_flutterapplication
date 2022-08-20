@@ -37,5 +37,83 @@
             "yakınlık": "Amcası",
             "telno":5555995562
         }
+    },
+    {
+        "okulno":354,
+        "adi": "Ali",
+        "soyadi": "Ata",
+        "cinsiyet": "Erkek",
+        "başarılı": true,
+        "veli":{
+            "adi": "Semih",
+            "soyadi": "Çavuş",
+            "yakınlık": "Dayısı",
+            "telno":546987123
+        }
+    },
+    {
+        "okulno":687,
+        "adi": "Mehmet",
+        "soyadi": "Kent",
+        "cinsiyet": "Erkek",
+        "başarılı": false,
+        "veli":{
+            "adi": "Leman",
+            "soyadi": "Kaya",
+            "yakınlık": "Annesi",
+            "telno":456987452
+        }
+    },
+    {
+        "okulno":421,
+        "adi": "Ayşe",
+        "soyadi": "Elçi",
+        "cinsiyet": "Kadın",
+        "başarılı": true,
+        "veli":{
+            "adi": "Halime",
+            "soyadi": "Şahin",
+            "yakınlık": "Teyzesi",
+            "telno":6987454123
+        }
+    },
+    {
+        "okulno":124,
+        "adi": "Bedirhan",
+        "soyadi": "Demir",
+        "cinsiyet": "Erkek",
+        "başarılı": true,
+        "veli":{
+            "adi": "Leyla",
+            "soyadi": "Demir",
+            "yakınlık": "Annesi",
+            "telno":456321789
+        }
+    },
+    {
+        "okulno":857,
+        "adi": "Mehmet",
+        "soyadi": "Sap",
+        "cinsiyet": "Erkek",
+        "başarılı": false,
+        "veli":{
+            "adi": "Samet",
+            "soyadi": "Sap",
+            "yakınlık": "Babası",
+            "telno":369852147
+        }
+    },
+    {
+        "okulno":963,
+        "adi": "Derya",
+        "soyadi": "Kara",
+        "cinsiyet": "Kadın",
+        "başarılı": true,
+        "veli":{
+            "adi": "Şemsettin",
+            "soyadi": "Kara",
+            "yakınlık": "Babası",
+            "telno":147852369
+        }
     }
 ]
