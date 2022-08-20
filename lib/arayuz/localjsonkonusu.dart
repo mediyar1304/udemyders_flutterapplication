@@ -36,16 +36,13 @@ class LocalState extends State<LocalJsonKonusu> {
                       crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Text(
-                          "Okul No: " + ogrenci[index]['okulno'],
-                        ),
-                        Text(
                           "Adı: " + ogrenci[index]['adi'],
                         ),
                         Text(
                           "Soyadı: " + ogrenci[index]['soyadi'],
                         ),
                         Text(
-                          "Cinsiyet: " + ogrenci[index]['cinsiyet'],
+                          "Velisi: " + ogrenci[index]['veli']['yakınlık'],
                         ),
                       ],
                     ),
