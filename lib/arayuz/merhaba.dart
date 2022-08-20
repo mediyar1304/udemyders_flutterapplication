@@ -46,7 +46,7 @@ class Merhaba extends StatelessWidget {
                   decoration: BoxDecoration(
                     image: DecorationImage(
                       image: NetworkImage(
-                        "https://pub.dev/static/hash-t0ljt5cj/img/ff-banner-desktop-2x.png",
+                        "https://iadsb.tmgrup.com.tr/39fd82/1200/627/0/0/1326/693?u=https://idsb.tmgrup.com.tr/2019/04/28/ancient-akdamar-church-on-lake-van-worth-a-trip-to-eastern-anatolia-1556478157686.jpg",
                       ),
                       fit: BoxFit.cover,
                     ),
