@@ -40,7 +40,7 @@ class Merhaba extends StatelessWidget {
           crossAxisCount: 2,
           children: [
             GestureDetector(
-                onDoubleTap: () => Navigator.pushNamed(context, "/basithttp"),
+                onTap: () => Navigator.pushNamed(context, "/basithttp"),
                 child: Card(
                   child: Container(
                     decoration: BoxDecoration(
@@ -61,7 +61,7 @@ class Merhaba extends StatelessWidget {
                         padding: const EdgeInsets.all(8.0),
                         alignment: Alignment.bottomCenter,
                         child: const Text(
-                          "Basit Http\n   Sayfasına Git ",
+                          "Basit Http İşlemleri \n   Sayfasına Git ",
                           textAlign: TextAlign.center,
                           style: TextStyle(fontWeight: FontWeight.bold),
                         ),

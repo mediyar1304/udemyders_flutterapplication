@@ -16,7 +16,7 @@ class HttpState extends State<BasitHttp> {
   }
 
   postIslemiYap() {
-    print("get butonunu denediniz");
+    print("post butonunu denediniz");
   }
 
   @override
