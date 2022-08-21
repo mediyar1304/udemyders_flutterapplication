@@ -12,10 +12,34 @@ class HttpState extends State<BasitHttp> {
   var veri;
 
   getIslemiYap() {
+    http
+        .get(Uri.parse("https://jsonplaceholder.typicode.com/posts/1"))
+        .then((cevap) {
+      print(cevap.statusCode);
+      print(cevap.body.length);
+      print(cevap.body);
+      setState(() {
+        veri = cevap.body;
+      });
+    });
     print("get butonunu denediniz");
   }
 
   postIslemiYap() {
+    http.post(Uri.parse("https://jsonplaceholder.typicode.com/posts"), body: {
+      "title": "Uygulamadan geldim",
+      "body": """Uygulamadan gönderilen yazı \n
+       buna karşılık sunucudan cevap gelecek""",
+      "userId": "13",
+      "id": "1258454543",
+    }).then((cevap) {
+      print(cevap.statusCode);
+      print(cevap.body.length);
+      print(cevap.body);
+      setState(() {
+        veri = cevap.body;
+      });
+    });
     print("post butonunu denediniz");
   }
 
@@ -35,6 +59,7 @@ class HttpState extends State<BasitHttp> {
             children: [
               Expanded(
                 child: RaisedButton(
+                  color: Colors.amber,
                   child: Text(
                     "GET",
                   ),
@@ -43,6 +68,7 @@ class HttpState extends State<BasitHttp> {
               ),
               Expanded(
                 child: RaisedButton(
+                  color: Colors.teal,
                   child: Text(
                     "POST",
                   ),
@@ -53,8 +79,12 @@ class HttpState extends State<BasitHttp> {
           ),
           Expanded(
             child: Center(
-              child: Text(
-                "Gelen veri",
+              child: ListView(
+                children: [
+                  Text(
+                    "Gelen veri: \n $veri",
+                  ),
+                ],
               ),
             ),
           ),
