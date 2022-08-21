@@ -40,6 +40,36 @@ class Merhaba extends StatelessWidget {
           crossAxisCount: 2,
           children: [
             GestureDetector(
+                onDoubleTap: () => Navigator.pushNamed(context, "/basithttp"),
+                child: Card(
+                  child: Container(
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: AssetImage("assets/images/mountain.jpg"),
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                    margin: EdgeInsets.all(5.0),
+                    alignment: Alignment.bottomCenter,
+                    child: Transform(
+                      alignment: Alignment.bottomCenter,
+                      transform: Matrix4.skewY(0.0)..rotateZ(0.0),
+                      child: Container(
+                        height: 45,
+                        width: double.infinity,
+                        color: Color(0xCDFFFFFF),
+                        padding: const EdgeInsets.all(8.0),
+                        alignment: Alignment.bottomCenter,
+                        child: const Text(
+                          "Basit Http\n   Sayfasına Git ",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
+                      ),
+                    ),
+                  ),
+                )),
+            GestureDetector(
               onTap: () => Navigator.pushNamed(context, "/localjsonkonusu"),
               child: Card(
                 child: Container(
