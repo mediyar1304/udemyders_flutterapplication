@@ -28,8 +28,8 @@ class HttpState extends State<BasitHttp> {
   postIslemiYap() {
     http.post(Uri.parse("https://jsonplaceholder.typicode.com/posts"), body: {
       "title": "Uygulamadan geldim",
-      "body": """Uygulamadan gönderilen yazı \n
-       buna karşılık sunucudan cevap gelecek""",
+      "body":
+          "Uygulamadan gönderilen yazı buna karşılık sunucudan cevap gelecek",
       "userId": "13",
       "id": "1258454543",
     }).then((cevap) {
