@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:udemy_application/arayuz/alertvetext.dart';
 import 'package:udemy_application/arayuz/basithttp.dart';
 import 'package:udemy_application/arayuz/dosyaislemleri.dart';
+import 'package:udemy_application/arayuz/elfeneri.dart';
 import 'package:udemy_application/arayuz/imageview.dart';
 import 'package:udemy_application/arayuz/jsonkonusu.dart';
 import 'package:udemy_application/arayuz/sharedkonusu.dart';
@@ -32,6 +33,7 @@ void main() {
         "/jsonkonusu": (context) => JsonKonusu(),
         "/localjsonkonusu": (context) => LocalJsonKonusu(),
         "/basithttp": (context) => BasitHttp(),
+        "/elfeneri": (context) => ElFeneri(),
       },
     ),
   );
