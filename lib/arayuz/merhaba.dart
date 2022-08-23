@@ -40,7 +40,7 @@ class Merhaba extends StatelessWidget {
           crossAxisCount: 2,
           children: [
             GestureDetector(
-                onTap: () => Navigator.pushNamed(context, "/degisenWidget"),
+                onTap: () => Navigator.pushNamed(context, "/elfeneri"),
                 child: Card(
                   child: Container(
                     decoration: BoxDecoration(
