@@ -9,7 +9,7 @@ class Merhaba extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.greenAccent.shade100,
       appBar: AppBar(
-        title: Text("Whatsapp"),
+        title: Text("Bilgi"),
         backgroundColor: Colors.green,
         actions: <Widget>[
           IconButton(
